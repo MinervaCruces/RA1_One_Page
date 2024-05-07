@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+
+}
+.titulo {
+	padding: 400px;
+	font-size: 1.5em;
+}
+
+nav ul {
+	width: 80%;
+	margin: auto;
+	border-radius: 10px;
+	list-style-type: none;
+	background-color: rgba(85, 104, 119, 0.47);
+}
+nav li {
+	display: inline-flex;
+}
+nav a {
+	padding: 20px;
+	width: 150px;
+}
+nav ul a:hover {
+	background-color: rgba(255, 146, 0, 0.08);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+}
+
+.contenido {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	margin-top: 500px;
+	margin-bottom: 500px;
+	font-family: century gothic;
+	font-size: 1.3em;
+}
+.contenido .articulo1 div{
+	width: 70%;
+	margin: auto;
+
+}
+.contenido .articulo2 div{
+	width: 70%;
+	margin: auto;
+}
+.contenido .articulo3 div{
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+}
+.contenido .articulo div {
+	width: 90%;
+	padding: 15px;
+	background-color: rgba(153, 114, 37, 0);
+	border-radius: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.contenido .articulo img {
+	width: 70%;
+	height: 70%;
+	border-radius: 15px;
+	object-fit: cover;
+
+}
+
+
+.contenido .secundario {
+	width: 30%;
+}
+.contenido .secundario p {
+	background-color: rgba(153, 114, 37, 0.73);
+	border-radius: 15px;
+	padding: 20px;
+	height: 700px;
+}
+
+
+
+.imagen {
+	width: 100%;
+	transition: transform 0.3s ease;
+
+}
+
+.video-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+.titulo {
+	position: relative;
+}
+
+.titulo img {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.articulo > div {
+	border: 2px solid rgba(85, 104, 119, 0.47);
+	border-radius: 10px;
+	padding: 80px;
+	margin-bottom: 300px;
+	margin: auto ;
+}
+.piedepagina {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 146, 0, 0.08);
+
+}
+.piedepagina p {
+	padding: 30px;
+}
+
+
+
+
+
